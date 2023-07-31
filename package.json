@@ -5,6 +5,10 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "@sampetering/provider-provider"
+  },
   "scripts": {
     "test": "vitest",
     "build": "tsup index.tsx --format cjs,esm --dts",
