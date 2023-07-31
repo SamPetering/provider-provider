@@ -13,19 +13,14 @@
 ## Install
 
 ```sh
-pnpm install
+pnpm add @sampetering/provider-provider
 ```
 
 ## Usage
 
-```sh
-Provide you providers to ProviderProvider with the providers prop.
 ```
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+// Provide you providers to ProviderProvider with the providers prop.
+<ProviderProvider providers={[ProviderA, ProviderB, ProviderC, ...]}>
+  <App />
+</ProviderProvider>
+```
