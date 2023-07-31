@@ -1,0 +1,32 @@
+{
+  "name": "@sampetering/provider-provider",
+  "version": "1.0.2",
+  "description": "You could totally write this yourself, but why would you?",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsup index.tsx --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "keywords": [],
+  "author": "Sam Petering",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@testing-library/react": "^14.0.0",
+    "@types/node": "^20.4.5",
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
+    "jsdom": "^22.1.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.7",
+    "vitest": "^0.33.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}

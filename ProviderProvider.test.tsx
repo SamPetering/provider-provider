@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
-import { ProviderProvider } from '@sampetering/provider-provider';
-import * as Mock from 'mocks';
 import { act } from 'react-dom/test-utils';
+import { ProviderProvider } from '.';
+import * as Mock from './mocks';
 
 const allProviders = [Mock.Provider1, Mock.Provider2, Mock.Provider3];
 
