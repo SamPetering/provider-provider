@@ -14,7 +14,11 @@
     "build": "tsup index.tsx --format cjs,esm --dts",
     "lint": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "context",
+    "provider",
+  ],
   "author": "Sam Petering",
   "license": "MIT",
   "devDependencies": {
