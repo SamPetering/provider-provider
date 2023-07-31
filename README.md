@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to @sampetering/provider-provider 👋</h1>
+<h1 align="center">provider-provider</h1>
 <p>
   <a href="https://www.npmjs.com/package/@sampetering/provider-provider" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/@sampetering/provider-provider.svg">
