@@ -1,6 +1,6 @@
 {
   "name": "@sampetering/provider-provider",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "You could totally write this yourself, but why would you?",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
