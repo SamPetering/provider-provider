@@ -8,7 +8,7 @@
   </a>
 </p>
 
-`<ProviderProvider />` provides your providers.
+<ProviderProvider /> provides your providers.
 
 ## Install
 
