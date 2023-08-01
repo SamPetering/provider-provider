@@ -12,7 +12,8 @@
   "scripts": {
     "test": "vitest",
     "build": "tsup src/index.tsx --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "release": "pnpm run build && changeset publish"
   },
   "keywords": [
     "react",
