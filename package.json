@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "vitest",
-    "build": "tsup index.tsx --format cjs,esm --dts",
+    "build": "tsup src/index.tsx --format cjs,esm --dts",
     "lint": "tsc"
   },
   "keywords": [
