@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> `<ProviderProvider />` provides yours providers.
+`<ProviderProvider />` provides your providers.
 
 ## Install
 
@@ -19,7 +19,7 @@ pnpm add @sampetering/provider-provider
 ## Usage
 
 ```
-// Provide you providers to ProviderProvider with the providers prop.
+// Provide your providers to ProviderProvider with the providers prop.
 <ProviderProvider providers={[ProviderA, ProviderB, ProviderC, ...]}>
   <App />
 </ProviderProvider>
